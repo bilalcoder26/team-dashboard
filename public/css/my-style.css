@@ -1,0 +1,105 @@
+body {
+    /* overflow: hidden; Hide scrollbars */
+}
+
+.fl-container{
+    display: flex;
+}
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #baccd1;
+}
+.create-team-form {
+   
+    margin-left: auto;
+   
+}
+
+
+.main-block{
+    width: 100vw;
+
+}
+
+.panel{
+    height: 90vh;
+    padding: 20px; 
+}
+
+.panel-left{
+    width: 20vw;
+    background-color:#e5e1e7;
+}
+.panel-right{
+    padding: 20px 40px 20px 40px; 
+    width: 80vw;
+}
+
+#btn-create-team{
+    color: #ffffff;
+    margin-top: 3.4vh;
+}
+
+
+/*Select styling*/
+select:required:invalid {
+color: gray;
+}
+option[value=""][disabled] {
+display: none;
+}
+option {
+color: black;
+}
+
+.info-strip{
+display:flex;
+margin: 10px 0px 10px 0px;
+}
+.info-strip-body{
+padding: 5px 5px 5px 5px;
+color:#030303;
+background-color:#ffffff;
+width:100%;
+margin : 1px 0px;
+}
+
+.info-strip-body:hover{
+    color:#ffffff;
+    background-color:#edcb64;
+}
+
+.info-strip-end{
+background-color:#e3aa00;
+width:6px;
+}
+
+
+.card{
+    width: 250px;
+    background-color:#baccd1;
+    padding: 15px;
+    margin: 10px 0 10px 20px;
+   
+}
+
+.card-items{
+    align-content:auto;
+    height: 100vh;
+    width: 250px;
+    flex-flow: column wrap;
+}
+
+
+
+
+
+/* grey : #baccd1
+purple grey : #e8ddeb
+e5e1e7
+light purple grey : #fefaff
+red : #e30000
+yellow dark : #e3aa00
+light yellow : #edcb64 */
